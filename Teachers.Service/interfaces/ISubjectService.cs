@@ -7,7 +7,7 @@ using Teachers.Models;
 
 namespace Teachers.Service.interfaces
 {
-    internal interface ISubjectService
+    public interface ISubjectService
     {
         Task<List<Subject>> GetAllSubjectsAsync();
         Task AddNewSubjectAsync(Subject subject);

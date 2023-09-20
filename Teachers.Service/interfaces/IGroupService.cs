@@ -7,7 +7,7 @@ using Teachers.Models;
 
 namespace Teachers.Service.interfaces
 {
-    internal interface IGroupService
+    public interface IGroupService
     {
 Task AddGroupAsync(Group group);
         Task DeleteGroupAsync(string Name);
